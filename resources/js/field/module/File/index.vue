@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <div class="max-w-xs">
+    <div class="w-1/6">
 
       <div v-if="!url" class="card border border-lg border-50 max-w-xs p-8 text-center">
         {{ __("nml_no_file_selected") }}
